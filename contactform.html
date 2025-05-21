@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <style>
+        .header {
+            height: 250px;
+            padding: 40px;
+            text-align: center;
+            background: url('contactbanner.png') no-repeat center center;
+            background-size: cover;
+        }
+		body {
+            background-color: #fcf5e4; 
+        }
+
+        .logo {
+            position: absolute;
+            top: 200px;
+            left: 50px;
+            width: 115px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+    </div>
+
+    <h2>HTML Forms</h2>
+
+    <form action="contact.html">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <p><strong>COMMENTS:</strong>
+        <textarea name="COMMENTS" rows="4" cols="36"></textarea></p>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>
